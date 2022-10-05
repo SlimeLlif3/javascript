@@ -13,3 +13,4 @@ console.log(altura)
 
 const number = 20;
 console.log(idade)
+
