@@ -24,4 +24,25 @@ console.log(pessoa)
 
 //Arrays
 
-let familia []
+let familia = [26,45,50,17]
+
+console.log(familia.length);
+console.log(familia[1])
+
+let nomeDoColega = ['Vinicius', 22, 'Lagoa Santa']
+console.log(nomeDoColega[2])
+
+//Verbo + Substantivo
+
+let corSite = "azul";
+function resetaCor(cor,tonalidade){
+    corSite = cor + tonalidade;
+}
+
+console.log(corSite);
+resetaCor("Verde"," Claro");
+console.log(corSite);
+
+//Realizar uma tarefa, não devolve nada
+
+
