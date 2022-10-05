@@ -4,13 +4,24 @@
 // console.log(altura);
 // camelCase
 
-let peso = 70;
-console.log(peso);
+//Tipagem dinamica e objetos
+let nome = 'Yan';
 let idade = 20;
-console.log(idade);
-let altura = 172
-console.log(altura)
+let estaAprovado = true;
+let sobrenome = undefined;
 
-const number = 20;
-console.log(idade)
+let pessoa = {
+    nome: 'Yan',
+    idade:20,
+    estaAprovado: true,
+    sobrenome:'Lucas',
+    altura:173,
+    peso:70,
+    nomeCompleto:'Yan Lucas da Mata Fernandes'
+}
 
+console.log(pessoa)
+
+//Arrays
+
+let familia []
