@@ -46,3 +46,42 @@ console.log(corSite);
 //Realizar uma tarefa, não devolve nada
 
 
+let valorMaior = max(18,20)
+console.log(valorMaior);
+
+function max(numero1,numero2){
+    return numero1>numero2 ? numero1 : numero2;
+}
+
+const resultado = fizzbuzz(15)
+console.log(resultado);
+
+function fizzbuzz(entrada){
+    if (typeof entrada !== "number")
+        return "0";
+     if (entrada % 3===0 && entrada % 5===0)
+        return "FizzBuzz";
+    if (entrada % 3===0)
+        return "Fizz";
+    if (entrada % 5===0)
+        return "Buzz";
+    
+        return entrada;
+}
+verificarVelocidade(130);
+
+function verificarVelocidade(velocidade) {
+    const velocidadeMaxima = 70
+    const kmPorPontos = 5 
+
+    if (velocidade<= velocidadeMaxima)
+        console.log("ok")
+    else {
+        const pontos = Math.floor(((velocidade - velocidadeMaxima)/kmPorPontos))
+            if (pontos >= 12)
+            console.log('Carteira Suspensa');
+            else
+                console.log('Pontos', pontos);
+
+    }
+}
