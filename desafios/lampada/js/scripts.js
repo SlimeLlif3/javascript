@@ -12,7 +12,6 @@ const lampada = document.getElementById('lamp')
 
 function isLampBroken (){
     return lamp.src.indexOf ('quebrada') > -1
-
 }
 
 function lampOn (){
@@ -37,8 +36,8 @@ function brokenLamp(){
 
 //Eventos
 
-ligar.addEventListener('click', lampOn)
+ligar.addEventListener('click',lampOn)
 desligar.addEventListener('click',lampOff)
 lamp.addEventListener('mouseover',lampOn)
 lamp.addEventListener('mouseout',lampOff)
-lampada.addEventListener('dblclick', brokenLamp )
+lampada.addEventListener('dblclick',brokenLamp )
